@@ -5,7 +5,7 @@ body {
 h1 {
     color: red;
     font-size: 60px;
-
+    text-align: center;
 }
 
 .ul.lit {
@@ -16,4 +16,61 @@ h1 {
 
 li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#water {
+    width: 800;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bread {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#soup {
+    border-radius: 15px;
+    display: block;
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w.blue{
+    color: lightblue;
+    font-size: 60px;
+}
+
+.b.brown{
+    color: burlywood;
+    font-size: 60px;
+}
+
+.s.red{
+    color: red;
+    font-size: 60px;
+}
+
+.img.front {
+    display: block;
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+    border: 2px solid red;
+    padding: 10px;
 }
